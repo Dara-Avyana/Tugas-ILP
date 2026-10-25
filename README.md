@@ -3,9 +3,9 @@
 **INF-1316 Organisasi dan Arsitektur Komputer** (Dosen : Pak Agung)
 
 ## Anggota Kelompok
-1. **Dimas Adhi Prasetyo** (NIM: 51240004)
-2. **Intan Cladia Sihombing** (NIM: 51240055) 
-3. **Dara Ratu Avyana** (NIM: 51240058)
+1. **Dimas Adhi Prasetyo** (NIM: 51240004) _Implementasi & Analisis WAR (Anti-Dependence)_
+2. **Intan Cladia Sihombing** (NIM: 51240055) _Implementasi & Analisis WAW (Output Dependence)_
+3. **Dara Ratu Avyana** (NIM: 51240058) _Implementasi & Analisis RAW (True Data Dependence)_
 ---
 
 ## 📌 Deskripsi Tugas & Jenis Dependensi
@@ -18,3 +18,4 @@ Berdasarkan materi perkuliahan, pengembangan simulator ILP pada Notebook ini men
 - Deteksi otomatis dependensi **RAW**, **WAR**, dan **WAW** antar instruksi.
 - Simulasi perbandingan siklus eksekusi sekuensial (*Sequential Execution*) vs eksekusi paralel (*ILP Execution*) beserta perhitungan *Speedup* dan *ILP Efficiency*.
 - Pembuatan **Dependency Graph** secara visual menggunakan `networkx` dan `matplotlib`.
+- Demonstrasi solusi Register Renaming untuk mengeliminasi Name Dependence (WAR & WAW) dan meningkatkan efisiensi ILP.
